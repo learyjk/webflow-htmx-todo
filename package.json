@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "dev": "wrangler dev src/index.tsx",
+    "deploy": "wrangler deploy --minify src/index.tsx"
+  },
+  "dependencies": {
+    "@webflow/webflow-cli": "^1.6.4",
+    "hono": "^3.8.2",
+    "typed-html": "^3.0.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230914.0",
+    "@types/uuid": "^9.0.6",
+    "wrangler": "^3.14.0"
+  }
+}
